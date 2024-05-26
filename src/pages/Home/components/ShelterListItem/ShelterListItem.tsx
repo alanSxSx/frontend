@@ -90,6 +90,9 @@ const ShelterListItem = (props: IShelterListItemProps) => {
         <h6 className={cn('font-semibold text-md', availabilityClassName)}>
           {availability}
         </h6>
+				<h6 className="text-muted-foreground text-sm md:text-lg font-medium">
+          {data.city}
+        </h6>
         <h6 className="text-muted-foreground text-sm md:text-lg font-medium">
           {data.address}
         </h6>
